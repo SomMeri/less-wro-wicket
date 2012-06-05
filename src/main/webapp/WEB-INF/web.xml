@@ -67,7 +67,14 @@
 		<dispatcher>REQUEST</dispatcher>
 		<dispatcher>INCLUDE</dispatcher>
 	</filter-mapping>
-
+	<filter>
+		<filter-name>WebResourceOptimizer</filter-name>
+		<filter-class>ro.isdc.wro.http.WroFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>WebResourceOptimizer</filter-name>
+		<url-pattern>/wro/*</url-pattern>
+	</filter-mapping>
 	<session-config>
 		<session-timeout>5</session-timeout>
 	</session-config>
