@@ -16,7 +16,6 @@
  */
 package org.apache.wicket.examples;
 
-import org.apache.wicket.examples.source.SourcesPage;
 import org.apache.wicket.protocol.http.PageExpiredException;
 import org.apache.wicket.request.IRequestHandler;
 import org.apache.wicket.request.Request;
@@ -75,11 +74,8 @@ public class WicketExampleRequestCycle extends RequestCycle
 		{
 			WebRequest webRequest = (WebRequest)request;
 
-			if (webRequest.isAjax() &&
-				!request.getRequestParameters().getParameterValue(SourcesPage.PAGE_CLASS).isNull())
+			if (webRequest.isAjax())
 			{
-				// If there is a better way to figure out if SourcesPage was the request, we should
-				// do that.
 				throw new AbortWithHttpErrorCodeException(404, "");
 			}
 		}

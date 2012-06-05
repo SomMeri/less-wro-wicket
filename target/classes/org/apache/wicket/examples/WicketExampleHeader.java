@@ -17,11 +17,8 @@
 package org.apache.wicket.examples;
 
 import org.apache.wicket.devutils.debugbar.DebugBar;
-import org.apache.wicket.examples.source.SourcesPage;
 import org.apache.wicket.markup.html.WebPage;
 import org.apache.wicket.markup.html.basic.Label;
-import org.apache.wicket.markup.html.link.BookmarkablePageLink;
-import org.apache.wicket.markup.html.link.PopupSettings;
 import org.apache.wicket.markup.html.panel.Panel;
 
 /**
@@ -29,6 +26,7 @@ import org.apache.wicket.markup.html.panel.Panel;
  * 
  * @author Eelco Hillenius
  */
+@SuppressWarnings("serial")
 public final class WicketExampleHeader extends Panel
 {
 	/**
@@ -47,13 +45,5 @@ public final class WicketExampleHeader extends Panel
 
 		add(new DebugBar("debug"));
 		add(new Label("exampleTitle", exampleTitle));
-		BookmarkablePageLink<Void> link = new BookmarkablePageLink<Void>("sources",
-			SourcesPage.class, SourcesPage.generatePageParameters(page));
-		add(link);
-
-		PopupSettings settings = new PopupSettings("sources", PopupSettings.RESIZABLE);
-		settings.setWidth(800);
-		settings.setHeight(600);
-		link.setPopupSettings(settings);
 	}
 }
