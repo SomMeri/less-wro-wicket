@@ -19,7 +19,7 @@ html {
 }
 
 body {
-	background: #787878 url(images/background.gif) repeat scroll 0%;
+	background: #787878 url(../images/background.gif) repeat scroll 0%;
 	color: #4A4A4A;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial,
 		Helvetica, sans-serif;
@@ -44,19 +44,18 @@ a:hover {
 }
 
 #container {
-	background: transparent url(images/bg_container.png) repeat scroll 0%;
+	background: transparent url(../images/bg_container.png) repeat scroll 0%;
 	margin-left: auto;
 	margin-right: auto;
 	min-height: 100%;
 	padding-left: 28px;
 	width: 927px;
-	width *: 955px;
 	text-align: left;
 	margin-left: auto;
 }
 
 #header {
-	background: #E8590A url(images/logo.png) repeat scroll 0%;
+	background: #E8590A url(../images/logo.png) repeat scroll 0%;
 	height: 108px;
 	width: 899px;
 }
@@ -83,7 +82,7 @@ h1 {
 	font-size: 1.4em;
 	font-weight: bold;
 	text-decoration: none;
-	background-image: url(images/wicket.png);
+	background-image: url(../images/wicket.png);
 	background-repeat: no-repeat;
 	margin-left: 30px;
 }

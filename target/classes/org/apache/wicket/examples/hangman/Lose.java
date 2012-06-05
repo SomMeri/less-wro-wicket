@@ -25,6 +25,7 @@ import org.apache.wicket.markup.html.link.Link;
  * @author Chris Turner
  * @author Jonathan Locke
  */
+@SuppressWarnings("serial")
 public class Lose extends HangmanPage
 {
 	/**

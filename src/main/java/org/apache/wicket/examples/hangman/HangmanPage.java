@@ -23,6 +23,7 @@ import org.apache.wicket.examples.WicketExamplePage;
  * 
  * @author Jonathan Locke
  */
+@SuppressWarnings("serial")
 public class HangmanPage extends WicketExamplePage
 {
 	/**

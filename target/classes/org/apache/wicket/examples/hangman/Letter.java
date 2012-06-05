@@ -30,6 +30,7 @@ import org.apache.wicket.util.lang.Primitives;
  * 
  * @author Jonathan Locke
  */
+@SuppressWarnings("serial")
 public class Letter implements IClusterable
 {
 	/** True if the letter has been guessed */

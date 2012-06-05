@@ -24,6 +24,7 @@ import org.apache.wicket.request.Request;
  * 
  * @author Jonathan Locke
  */
+@SuppressWarnings("serial")
 public class HangmanSession extends WebSession
 {
 	/** The game */

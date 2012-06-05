@@ -37,6 +37,7 @@ import org.apache.wicket.util.resource.locator.ResourceStreamLocator;
  * @author Chris Turner
  * @version 1.0
  */
+@SuppressWarnings("serial")
 public class WordGenerator implements IClusterable
 {
 	/** List of words */

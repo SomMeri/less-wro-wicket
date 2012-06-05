@@ -27,6 +27,7 @@ import org.apache.wicket.IClusterable;
  * 
  * @author Jonathan Locke
  */
+@SuppressWarnings("serial")
 public class Word implements IClusterable
 {
 	/** The word */
