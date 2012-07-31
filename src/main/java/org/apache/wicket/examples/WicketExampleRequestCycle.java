@@ -28,7 +28,7 @@ import org.apache.wicket.util.lang.Exceptions;
 /**
  * Handles the PageExpiredException so that the SourcesPage can recover from a session expired.
  * 
- * TODO NG
+ * 
  * 
  * @author rgravener
  */

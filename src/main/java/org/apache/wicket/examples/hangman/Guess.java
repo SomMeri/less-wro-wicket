@@ -32,7 +32,7 @@ import org.apache.wicket.request.mapper.parameter.PageParameters;
  * @author Chris Turner
  * @author Jonathan Locke
  */
-@SuppressWarnings("serial")
+@SuppressWarnings({ "serial", "deprecation" })
 public class Guess extends HangmanPage
 {
 	/**

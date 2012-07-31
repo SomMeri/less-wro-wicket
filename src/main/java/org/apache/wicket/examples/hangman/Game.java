@@ -30,6 +30,7 @@ import org.apache.wicket.IClusterable;
  * @author Chris Turner
  * @author Jonathan Locke
  */
+@SuppressWarnings("serial")
 public class Game implements IClusterable
 {
 	/** Number of guesses allowed */

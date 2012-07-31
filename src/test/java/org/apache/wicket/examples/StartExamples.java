@@ -33,7 +33,6 @@ import org.eclipse.jetty.webapp.WebAppContext;
 public class StartExamples
 {
   
-	//FIXME: less can not handle width *: which is some trick!!
 	/**
 	 * Main function, starts the jetty server.
 	 * 
