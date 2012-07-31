@@ -52,7 +52,7 @@ public class StartExamples
 
 		WebAppContext bb = new WebAppContext();
 		bb.setServer(server);
-		bb.setContextPath("/");
+		bb.setContextPath("/wicket-wro");
 		bb.setWar("src/main/webapp");
 
 		server.setHandler(bb);
